@@ -18,7 +18,16 @@ Contains all Python package dependencies with pinned versions for reproducibilit
 - `numpy` - Numerical computing
 - `plotly` - Interactive visualizations
 - `scikit-learn` - Machine learning models
-- `opencv-python` - Computer vision library
+- `opencv-python-headless` - Computer vision library (headless for server)
+- `Pillow` - Image processing
+- `requests` - HTTP library
+
+#### 1b. **packages.txt**
+Contains system dependencies for Streamlit Cloud deployment:
+- `libsm6` - X11 shared memory extension
+- `libxext6` - X11 extension library
+- `libxrender-dev` - X11 rendering library
+- `libgomp1` - OpenMP library
 
 #### 2. **.streamlit/config.toml**
 Streamlit configuration file that sets:

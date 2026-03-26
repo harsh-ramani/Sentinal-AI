@@ -2,3 +2,15 @@ libsm6
 libxext6
 libxrender-dev
 libgomp1
+libglib2.0-0
+libgl1-mesa-glx
+libsm6
+libxext6
+libxrender-dev
+libfreetype6-dev
+libjpeg-dev
+zlib1g-dev
+libblas-dev
+liblapack-dev
+gfortran
+python3-dev

@@ -12,5 +12,8 @@ toolbarMode = "minimal"
 [logger]
 level = "info"
 
-[client.toolbarMode]
-enum = ["auto", "minimal", "expanded"]
+[server]
+maxUploadSize = 200
+enableCORS = true
+enableXsrfProtection = true
+headless = true
